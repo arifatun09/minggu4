@@ -22,7 +22,6 @@ class ArticleFactory extends Factory
     public function definition()
     {
         $title = $this->faker->sentence;
-        $author = $this->faker->sentence;
         return [
             'title' => $title,
             'content' => $this->faker->realText(),
